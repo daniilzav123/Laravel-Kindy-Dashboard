@@ -15,9 +15,9 @@ class UsersTableSeeder extends Seeder
         DB::table('users')->delete();
 
         $defaultUser = factory(User::class)->create([
-        	'name' => 'Kaushik',
+        	'name' => 'Test',
         	'email' => 'techwell602@gmail.com',
-        	'password' => bcrypt('Kaushik@123'),
+        	'password' => bcrypt('admin@123'),
         ]);
     }
 }
