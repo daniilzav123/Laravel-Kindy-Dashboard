@@ -66,7 +66,7 @@
     @if(Auth::user())
     <div id="footer" class="navbar-default">
       <div class="container ">
-        <h5 class="text-muted text-right">- Demo application By Kaushik </h5>
+        <h5 class="text-muted text-right">- Demo application </h5>
       </div>
     </div>
     @endif
